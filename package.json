@@ -1,0 +1,26 @@
+{
+  "name": "truckputer",
+  "version": "0.0.1",
+  "author": "Rob Chartier <rob.chartier@gmail.com>",
+  "description": "Intended to ship on a Raspberry Pi device to constantly monitor bluetooth connections to an OOBDII interface.  If it can connect it will automatically log all OOBDII data internally.  It will also constantly monitor WiFi and if it can connect it will push up an HTTP daemon, and upload data to a known database endpoint on a server.",
+  "contributors": [ 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nothingmn/truckputer"
+  },
+  "tags": [
+    "OOBD",
+    "Bluetooth",
+    "RaspBerry Pi",
+    "WiFi"
+  ],
+  "dependencies" : {
+    "bluetooth-obd"   : "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.15"
+  },
+  "bugs" : { "web" : "https://github.com/nothingmn/truckputer/issues" }
+}
